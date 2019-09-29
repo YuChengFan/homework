@@ -12,7 +12,7 @@ public class Ticket {
     }
     public void summary(){
         roundTripPrice = (int)(singleTirpPrice * 2 * 0.9);
-        System.out.print("Total tickets: " + tickets + "\n" +
+        System.out.println("Total tickets: " + tickets + "\n" +
                         "Round-trip: " + roundTripTickets + "\n" +
                         "Total: " +  (roundTripTickets * roundTripPrice + (tickets - roundTripTickets) * singleTirpPrice));
     }
